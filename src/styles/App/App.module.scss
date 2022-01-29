@@ -1,0 +1,16 @@
+
+@import './../colors.scss';
+
+@import './../Header/Header.scss';
+@import './../Banner/Banner.scss';
+@import './../Portfolio/Portfolio.scss';
+@import './../AboutUs/AboutUs.scss';
+@import './../ContactUs/ContactUs.scss';
+@import './../Footer/Footer.scss';
+
+
+.app {
+    margin: 0 auto;
+    width: 1020px;
+    background-color: white;
+}

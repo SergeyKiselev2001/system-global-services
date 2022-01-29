@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import './styles/App/reset.css';
+import classes from './styles/App/App.module.css';
 
 
 // import { Navbar } from './components/--Navbar';
@@ -13,7 +15,9 @@ import { ContactUs } from './components/ContactUs';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 import { Portfolio } from './components/Portfolio';
-import { todoType } from './interfaces/interfaces';
+
+
+//import { todoType } from './interfaces/interfaces';
 
 
 
@@ -32,7 +36,7 @@ const App: React.FC = () => {
   // }
 
   return (
-    <div className="App">
+    <div className={classes.app}>
       {/* <h1>HAHAHAHA</h1>
       <Navbar/>
       <TodoForm onAdd={addHandler}/>
